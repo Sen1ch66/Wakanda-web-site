@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(./Images/pexels-apasaric-1820770.jpg);
+    background-size: cover ;
+    .extraVersion{
+        position: absolute;
+        right: 10%;
+        top: 20px;
+        padding: 10px 14px;
+        border: none;
+
+    }
+    .extraVersion::after{
+        content: "->";
+        background-color: green;
+        margin: 2px;
+    }
+    
+}
+.titlePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
